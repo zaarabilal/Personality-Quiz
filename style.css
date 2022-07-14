@@ -1,0 +1,94 @@
+/* STYLE SECTIONING TAGS */
+body {
+ 
+  
+  background-image: radial-gradient(  #145C9E , #FAD4D8);
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+ 
+}
+
+
+.titlei{
+  width:50px;
+  height:50px;
+}
+#title{
+  display:flex;
+}
+h1 {
+  font-style: bold;
+  border-bottom: 1px dashed white;
+  text-decoration:underline;
+  text-decoration-style:wavy;
+  text-decoration-color:#0B7189;
+  padding-bottom:2%;
+  font-family:"URW Chancery L", cursive;
+  text-align:center;
+  color: #;
+}
+p{
+  color:#EBF5EE;
+  font-family:"Georgia", serif;
+  text-shadow: 1px 1px black;
+  text-align:center;
+  padding-bottom:2%;
+  border-bottom:1px dashed white;
+}
+
+h2 {
+  font-family:"Apple Chancery", cursive;
+  text-shadow: 1px 1px #0B7189;
+  text-align:center;
+  margin-top: 2em; 
+}
+#result{
+  padding-bottom:3%;
+}
+
+
+.question {
+  text-align:center;
+  display: flex;
+  
+  justify-content: center; 
+  margin-top: 2em;
+}
+.center{
+  display:flex;
+  justify-content:center;
+}
+#displayResult{
+  margin-top:5%;
+}
+#restart{
+  margin-bottom:5%;
+}
+  
+
+.answer-choice {
+ 
+  margin: 5px;
+}
+
+div{
+  justify-content: center;
+}
+
+.answer-choice img {
+  border: 5px solid white;
+  border-radius:20%;
+  height: 10em;
+}
+
+
+button { 
+  font-family:"Marker Felt", fantasy;
+  border-radius:10%;
+  background-color:#F1D9A7;
+  margin-top: 5px;
+  padding: 20px;
+}
+button:hover{
+  background-color: #8B687F;
+}
